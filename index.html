@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pahadi Baithak — Hot meals at 4,270 m. Zero mules. Zero trace. | GNIOT INNOVEX 2026</title>
+  <meta name="description" content="Pahadi Baithak is a cruelty-free, zero-waste high-altitude food franchise for Himalayan trekkers, run by local villagers. An idea by Team Baithak Ho Jaye for GNIOT INNOVEX 2026." />
+  <meta property="og:title" content="Pahadi Baithak — Hot meals at 4,270 m. Zero mules. Zero trace." />
+  <meta property="og:description" content="Cruelty-free logistics, solar Stall-in-a-Box kiosks and a ₹50 Bring-It-Back deposit — by Team Baithak Ho Jaye." />
+  <meta property="og:image" content="/.netlify/images?url=/img/hero.png&w=1200&fm=jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2324453a'/%3E%3Cpath d='M5 30 L16 13 L22 21 L26 16 L35 30Z' fill='%23f3ecdf'/%3E%3Ccircle cx='29' cy='10' r='3.5' fill='%23d2662e'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Familjen+Grotesk:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Pahadi Baithak home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#24453a"/><path d="M5 30 L16 13 L22 21 L26 16 L35 30Z" fill="#f3ecdf"/><circle cx="29" cy="10" r="3.5" fill="#d2662e"/></svg>
+      <span><span class="brand-name">Pahadi Baithak</span><span class="brand-sub">by Team Baithak Ho Jaye</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#stall">Stall-in-a-Box</a></li>
+      <li><a href="#logistics">Logistics</a></li>
+      <li><a href="#safety">Safety Net</a></li>
+      <li><a href="#prototype">Prototype</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#review">Reviews</a></li>
+    </ul>
+    <a href="#join" class="btn btn-primary btn-sm">Back the idea</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Altimeter: scroll = climb -->
+<div class="altimeter" id="altimeter" aria-hidden="true">
+  <span class="alt-place" id="altPlace">Manali</span>
+  <div class="alt-track"><div class="alt-fill" id="altFill"></div></div>
+  <span class="alt-value" id="altValue">2,050 m</span>
+</div>
+
+<!-- Hero -->
+<header class="hero" id="top">
+  <div class="hero-bg">
+    <img src="/.netlify/images?url=/img/hero.png&w=1920&fm=webp&q=78"
+         srcset="/.netlify/images?url=/img/hero.png&w=900&fm=webp 900w, /.netlify/images?url=/img/hero.png&w=1400&fm=webp 1400w, /.netlify/images?url=/img/hero.png&w=1920&fm=webp 1920w"
+         sizes="100vw" alt="A small solar-powered Pahadi Baithak kiosk serving trekkers beside a glacial stream below the Hampta Pass peaks at dawn" fetchpriority="high" />
+  </div>
+  <div class="wrap hero-inner">
+    <div>
+      <span class="hero-tag reveal-up"><span class="dot"></span>GNIOT INNOVEX 2026 &middot; Think &bull; Innovate &bull; Impact</span>
+      <h1 class="reveal-up" style="animation-delay:.12s">Hot meals at 4,270&nbsp;m.<br/><em>Zero mules. Zero&nbsp;trace.</em></h1>
+      <p class="lede reveal-up" style="animation-delay:.24s">Pahadi Baithak is a high-altitude food franchise for Himalayan trekkers. Pack animals don't carry our food, the meals weigh 90% less, and the kiosks run on solar and are owned by people from the villages along the trail.</p>
+      <div class="hero-cta reveal-up" style="animation-delay:.36s">
+        <a href="#prototype" class="btn btn-primary">Try the working prototype
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#menu" class="btn btn-ghost">See the trail menu</a>
+      </div>
+    </div>
+    <aside class="hero-card reveal-up" style="animation-delay:.5s" aria-label="Pilot route summary">
+      <p class="mono" style="color:var(--saffron-soft)">Pilot route &middot; Hampta Pass, Himachal</p>
+      <div class="row"><span>Trail stalls planned</span><b>6</b></div>
+      <div class="row"><span>Highest point</span><b>4,270 m</b></div>
+      <div class="row"><span>Pack animals used</span><b>0</b></div>
+      <div class="row"><span>Hot meal, trail price</span><b>₹149</b></div>
+      <div class="row"><span>Refund for empty wrapper</span><b>₹50</b></div>
+    </aside>
+  </div>
+</header>
+
+<section class="stat-strip" aria-label="Key numbers">
+  <div class="wrap">
+    <div class="stat"><div class="num" data-count="90" data-suffix="%">0%</div><div class="lbl">less weight hauled uphill with dehydrated meals</div></div>
+    <div class="stat"><div class="num" data-count="10" data-suffix=" min">0 min</div><div class="lbl">to a boiling-hot meal, without fire or gas</div></div>
+    <div class="stat"><div class="num" data-count="50" data-prefix="₹">₹0</div><div class="lbl">deposit returned for every wrapper brought back</div></div>
+    <div class="stat"><div class="num" data-count="0" data-suffix="">0</div><div class="lbl">rupees a villager pays up front to open a stall</div></div>
+  </div>
+</section>
+
+<!-- Problem -->
+<section id="problem">
+  <div class="wrap problem-grid">
+    <div class="quote-block reveal">
+      <span class="eyebrow">The problem on the trail</span>
+      <h2>India's trekking boom runs on tired mules and gas cylinders.</h2>
+      <blockquote>“Every plate of Maggi at 4,000 metres was carried there by an animal. The wrapper usually stays behind.”<cite>Field note, Hampta Pass circuit</cite></blockquote>
+    </div>
+    <ol class="problem-list reveal">
+      <li><div><h3>Cruelty in the supply chain</h3><p>Raw rations, water and LPG cylinders are carried up on mules and horses. On steep, icy sections the animals are overloaded and overworked.</p></div></li>
+      <li><div><h3>Waste in a fragile ecosystem</h3><p>Plastic wrappers, foil packs and leftover food pile up at campsites. Hardly anyone takes litter back down the mountain.</p></div></li>
+      <li><div><h3>Food is costly and often unsafe</h3><p>Hauling heavy supplies makes every meal expensive. Water boils at a lower temperature up there, so food is often undercooked.</p></div></li>
+      <li><div><h3>No safety net once you're off-grid</h3><p>Past the last village there's no signal and no check-in point. If something goes wrong, nobody knows where you are.</p></div></li>
+      <li><div><h3>Few jobs for local youth</h3><p>The money from trekking mostly goes to operators in the cities. Young people in mountain villages get little of it.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Menu / Product -->
+<section class="dark" id="menu">
+  <div class="contours" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="none" fill="none" stroke="#f3ecdf" stroke-width="1.2">
+      <path d="M-50 620 C 200 520, 380 700, 620 560 S 1000 420, 1260 520"/>
+      <path d="M-50 560 C 220 460, 400 640, 640 500 S 1000 360, 1260 460"/>
+      <path d="M-50 500 C 240 400, 420 580, 660 440 S 1000 300, 1260 400"/>
+      <path d="M-50 440 C 260 340, 440 520, 680 380 S 1000 240, 1260 340"/>
+      <path d="M-50 380 C 280 280, 460 460, 700 320 S 1000 180, 1260 280"/>
+      <path d="M-50 320 C 300 220, 480 400, 720 260 S 1000 120, 1260 220"/>
+      <path d="M-50 260 C 320 160, 500 340, 740 200 S 1000 60, 1260 160"/>
+      <path d="M-50 200 C 340 100, 520 280, 760 140 S 1000 0, 1260 100"/>
+    </svg>
+  </div>
+  <div class="wrap" style="position:relative">
+    <div class="menu-head reveal">
+      <div>
+        <span class="eyebrow">01 &middot; The product</span>
+        <h2>A trail menu that weighs almost nothing.</h2>
+      </div>
+      <p class="lede">The meals are high-energy Indian food, freeze-dried at base camp. You just add water from the stream. Each pouch heats itself, and the bowl and spoon are made of baked millet, so you can eat them too.</p>
+    </div>
+
+    <div class="menu-layout">
+      <div class="menu-items reveal" role="tablist" aria-label="Trail menu" id="menuItems"></div>
+      <article class="menu-detail reveal" id="menuDetail" aria-live="polite">
+        <div class="ph"><img src="/.netlify/images?url=/img/bowl.png&w=720&fm=webp" alt="Steaming khichdi served in an edible millet bowl with a millet spoon, held by a trekker" loading="lazy" /></div>
+        <div class="body">
+          <p class="mono" style="color:var(--saffron)" id="mdTag">Bestseller</p>
+          <h3 id="mdName">Rajma Chawal</h3>
+          <p style="color:var(--ink-soft);margin-top:.3rem" id="mdDesc"></p>
+          <div class="macro">
+            <div><b id="mdKcal">0</b><span>kcal</span></div>
+            <div><b id="mdProtein">0</b><span>protein g</span></div>
+            <div><b id="mdWeight">0</b><span>pack g</span></div>
+          </div>
+          <div class="price-break">
+            <div><span>Meal</span><span id="mdPrice">₹0</span></div>
+            <div><span>Bring-It-Back deposit (refundable)</span><span>₹50</span></div>
+            <div class="total"><span>You pay at the stall</span><span id="mdTotal">₹0</span></div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="heat-steps reveal">
+      <div><span class="mono">Step 1 &middot; 0:00</span><h3>Pour stream water</h3><p>Pour cold water into the outer pouch. You don't need a stove, a gas cylinder or a solar heater.</p></div>
+      <div><span class="mono">Step 2 &middot; 0:30</span><h3>Flameless heat</h3><p>A water-activated heating pad, the same kind used in military MREs, boils the inner meal pouch, even when it's below freezing.</p></div>
+      <div><span class="mono">Step 3 &middot; 10:00</span><h3>Eat the bowl, too</h3><p>The bowl and spoon are hard-baked millet. If a piece falls, mountain birds eat it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Stall in a box -->
+<section id="stall">
+  <div class="wrap stall-grid">
+    <div class="stall-photo reveal">
+      <img src="/.netlify/images?url=/img/stall.png&w=1100&fm=webp" alt="A foldable plywood and orange-canvas Stall-in-a-Box kiosk with a roof solar panel and shelves of meal pouches on an alpine meadow" loading="lazy" />
+      <button class="hotspot active" style="top:20%;left:42%" data-spec="0" aria-label="Solar roof">1</button>
+      <button class="hotspot" style="top:55%;left:42%" data-spec="1" aria-label="Pouch shelves">2</button>
+      <button class="hotspot" style="top:58%;left:66%" data-spec="2" aria-label="Fold-out counter">3</button>
+      <button class="hotspot" style="top:44%;left:76%" data-spec="3" aria-label="Safety beacon">4</button>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">02 &middot; Stall-in-a-Box</span>
+      <h2>A whole restaurant that folds into a backpack frame.</h2>
+      <p class="lede">The kiosk is modular and powers itself. Two people can put it up in under an hour, and it folds back down when the trekking season ends, so nothing is left on the mountain.</p>
+      <div class="spec-list" id="specList">
+        <button class="spec active" data-spec="0"><span class="n">01</span><span><b>Solar roof</b><span>A folding panel and battery run the lights, phone charging and the Wi-Fi beacon.</span></span></button>
+        <button class="spec" data-spec="1"><span class="n">02</span><span><b>Pouch shelving</b><span>Holds about 180 meals. A full restock weighs under 25 kg.</span></span></button>
+        <button class="spec" data-spec="2"><span class="n">03</span><span><b>Fold-out counter</b><span>There's a UPI QR code for payments and a return bin where trekkers drop empty wrappers for their ₹50.</span></span></button>
+        <button class="spec" data-spec="3"><span class="n">04</span><span><b>Safety beacon</b><span>An offline intranet for check-ins and a satellite-linked SOS button.</span></span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Logistics -->
+<section class="logi" id="logistics">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">03 &middot; Cruelty-free logistics</span>
+      <h2>Three ways up the mountain. None of them involve a mule.</h2>
+      <p class="lede">The food is so light that we don't need pack animals. Pick a route below to see how supplies get from Manali base camp to each stall.</p>
+    </div>
+
+    <div class="route-tabs" role="tablist" id="routeTabs">
+      <button class="route-tab active" data-route="0" role="tab">Local porters</button>
+      <button class="route-tab" data-route="1" role="tab">Gravity ropeway</button>
+      <button class="route-tab" data-route="2" role="tab">Cargo drone</button>
+    </div>
+
+    <div class="route-panel reveal">
+      <div class="profile">
+        <svg viewBox="0 0 640 260" role="img" aria-label="Elevation profile of the Hampta Pass trail with the selected supply route">
+          <defs><linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#24453a" stop-opacity=".35"/><stop offset="1" stop-color="#24453a" stop-opacity=".04"/></linearGradient></defs>
+          <g stroke="rgba(29,42,36,.12)"><line x1="30" y1="50" x2="620" y2="50"/><line x1="30" y1="110" x2="620" y2="110"/><line x1="30" y1="170" x2="620" y2="170"/><line x1="30" y1="230" x2="620" y2="230"/></g>
+          <g font-family="DM Mono" font-size="10" fill="#46554d"><text x="0" y="54">4.2k</text><text x="0" y="114">3.6k</text><text x="0" y="174">3.0k</text><text x="0" y="234">2.4k</text></g>
+          <path d="M30 240 L110 175 L190 160 L290 115 L400 45 L480 85 L560 130 L620 140 L620 250 L30 250Z" fill="url(#mtn)"/>
+          <path d="M30 240 L110 175 L190 160 L290 115 L400 45 L480 85 L560 130 L620 140" fill="none" stroke="#24453a" stroke-width="2.5" stroke-linejoin="round"/>
+          <path id="routePath" class="path-anim" d="M30 240 L110 175 L190 160 L290 115 L400 45" fill="none" stroke="#d2662e" stroke-width="3.5" stroke-linecap="round"/>
+          <g font-family="DM Mono" font-size="10" fill="#1d2a24">
+            <circle cx="30" cy="240" r="5" fill="#1d2a24"/><text x="38" y="236">Manali base</text>
+            <circle cx="110" cy="175" r="5" fill="#d2662e"/><text x="88" y="196">Jobra</text>
+            <circle cx="190" cy="160" r="5" fill="#d2662e"/><text x="178" y="150">Chika</text>
+            <circle cx="290" cy="115" r="5" fill="#d2662e"/><text x="240" y="104">Balu ka Ghera</text>
+            <circle cx="400" cy="45" r="5" fill="#d2662e"/><text x="370" y="32">Hampta Pass</text>
+            <circle cx="480" cy="85" r="5" fill="#d2662e"/><text x="488" y="80">Shea Goru</text>
+            <circle cx="560" cy="130" r="5" fill="#d2662e"/><text x="545" y="152">Chatru</text>
+          </g>
+        </svg>
+      </div>
+      <div class="route-info" id="routeInfo" aria-live="polite"></div>
+    </div>
+
+    <div class="calc reveal">
+      <div>
+        <h3 style="font-size:1.9rem">How much lighter is it?</h3>
+        <p style="color:var(--ink-soft);margin:.5rem 0 1.6rem">Move the slider to set how many meals a stall serves in a week. The bars compare the weight of raw rations plus cooking fuel with our dehydrated pouches.</p>
+        <label for="mealsRange">Meals served per week</label>
+        <div class="range-val" id="mealsVal">420</div>
+        <input type="range" class="range" id="mealsRange" min="50" max="1500" step="10" value="420" />
+      </div>
+      <div>
+        <div class="bars">
+          <div class="bar-row"><div class="top"><span>Raw rations + LPG + water</span><b id="rawKg">0 kg</b></div><div class="bar raw"><i id="rawBar"></i></div></div>
+          <div class="bar-row"><div class="top"><span>Pahadi Baithak pouches</span><b id="dryKg">0 kg</b></div><div class="bar dry"><i id="dryBar"></i></div></div>
+        </div>
+        <div class="calc-out">
+          <div><b id="muleTrips">0</b><span>mule trips no longer needed</span></div>
+          <div><b id="porterLoads">0</b><span>12 kg porter loads, paid to local youth</span></div>
+          <div><b id="cylinders">0</b><span>LPG cylinders kept off the trail</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Zero waste loop -->
+<section id="loop">
+  <div class="wrap">
+    <div class="reveal" style="max-width:760px">
+      <span class="eyebrow">04 &middot; The zero-waste loop</span>
+      <h2>We pay trekkers to bring their trash back.</h2>
+      <p class="lede">Every meal carries a ₹50 deposit. Return the empty wrapper at any stall and you get the money back in cash or by UPI, plus a stamp in your Trekker's Passport. Three stamps get you a free mountain chai.</p>
+    </div>
+    <div class="loop-grid">
+      <div class="panel light reveal">
+        <span class="mono" style="color:var(--saffron)">Bring-It-Back simulator</span>
+        <h3>Your trek wallet</h3>
+        <p>Buy a meal, then tap an empty wrapper to return it.</p>
+        <div class="wallet">
+          <div><span class="mono" style="color:var(--ink-soft)">Deposit held</span><br/><b id="depositHeld">₹0</b></div>
+          <div style="text-align:right"><span class="mono" style="color:var(--ink-soft)">Refunded</span><br/><b id="depositBack" style="color:var(--pine)">₹0</b></div>
+        </div>
+        <div class="wrappers" id="wrappers" aria-label="Empty wrappers in your backpack"><span style="color:var(--ink-soft);font-size:.9rem;align-self:center" id="wrapEmpty">Your backpack is empty. Buy a meal to get started.</span></div>
+        <div class="panel-actions">
+          <button class="btn btn-dark btn-sm" id="buyMeal">Buy a meal · ₹199</button>
+          <button class="btn btn-ghost btn-sm" id="resetLoop" style="color:var(--ink)">Reset</button>
+        </div>
+        <p class="toast-line" id="loopToast" aria-live="polite"></p>
+      </div>
+      <div class="panel orange reveal">
+        <span class="mono">Zero-cost loyalty</span>
+        <h3>The Trekker's Passport</h3>
+        <p>It's a small cardboard passport you get at the trailhead. You earn a stamp for every meal you buy or wrapper you return.</p>
+        <div class="passport" aria-live="polite">
+          <div class="passport-head"><b>Trekker's Passport</b><span class="mono">No. HP-0417</span></div>
+          <div class="stamps" id="stamps">
+            <div class="stamp-slot">Stamp 1</div>
+            <div class="stamp-slot">Stamp 2</div>
+            <div class="stamp-slot">Stamp 3</div>
+          </div>
+          <div class="chai-unlock" id="chaiUnlock">Free mountain chai unlocked. Show this at any stall.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Safety network -->
+<section class="logi" id="safety">
+  <div class="wrap">
+    <div class="reveal" style="max-width:780px">
+      <span class="eyebrow">05 &middot; Safety checkpoint network</span>
+      <h2>Every food stall doubles as a rescue checkpoint.</h2>
+      <p class="lede">Each solar stall broadcasts a local Wi-Fi network that works offline. Trekkers can log a check-in or press SOS, and the alert goes out by satellite beacon. Click a stall on the map to try it.</p>
+    </div>
+    <div class="map-grid">
+      <div class="map-box reveal">
+        <svg viewBox="0 0 640 420" id="trailMap" role="group" aria-label="Map of Pahadi Baithak stalls along the Hampta Pass trail">
+          <g fill="none" stroke="rgba(243,236,223,.08)" stroke-width="1">
+            <path d="M0 360 C 120 300, 200 380, 320 320 S 520 260, 640 300"/>
+            <path d="M0 300 C 140 240, 220 320, 340 260 S 520 200, 640 240"/>
+            <path d="M0 240 C 160 180, 240 260, 360 200 S 520 140, 640 180"/>
+            <path d="M0 180 C 180 120, 260 200, 380 140 S 520 80, 640 120"/>
+            <path d="M0 120 C 200 60, 280 140, 400 80 S 520 20, 640 60"/>
+            <path d="M180 0 C 260 60, 300 120, 290 200"/>
+            <path d="M420 0 C 380 80, 420 140, 500 180"/>
+          </g>
+          <path d="M60 370 C 110 330, 130 300, 170 290 S 230 250, 260 230 S 320 170, 350 120 S 420 90, 450 140 S 520 200, 580 230" fill="none" stroke="rgba(243,236,223,.55)" stroke-width="2" stroke-dasharray="6 6"/>
+          <path d="M520 400 C 540 340, 600 300, 640 260" fill="none" stroke="rgba(110,160,190,.5)" stroke-width="3"/>
+          <g id="mapNodes"></g>
+          <text x="20" y="30" font-family="DM Mono" font-size="11" fill="rgba(243,236,223,.6)" letter-spacing="1">HAMPTA PASS CIRCUIT · KULLU → LAHAUL</text>
+        </svg>
+      </div>
+      <aside class="station-card reveal" id="stationCard" aria-live="polite">
+        <span class="mono" style="color:var(--ink-soft)" id="stStatus">Online · solar 82%</span>
+        <h3 id="stName">Balu ka Ghera</h3>
+        <span class="alt" id="stAlt">3,600 m</span>
+        <p style="color:var(--ink-soft);margin-top:.7rem" id="stNote"></p>
+        <div class="station-stats">
+          <div><b id="stTrekkers">0</b><span>trekkers checked in today</span></div>
+          <div><b id="stMeals">0</b><span>meals in stock</span></div>
+          <div><b id="stWrappers">0</b><span>wrappers returned</span></div>
+          <div><b id="stNext">—</b><span>next stall</span></div>
+        </div>
+        <button class="sos-btn" id="sosBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+          <span>Send SOS via beacon</span>
+        </button>
+        <button class="checkin-btn" id="checkinBtn">Log my check-in here</button>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Forecast -->
+<section class="dark" id="forecast">
+  <div class="wrap">
+    <div class="reveal" style="max-width:780px">
+      <span class="eyebrow">06 &middot; Predictive demand</span>
+      <h2>Stock for the storm before it arrives.</h2>
+      <p class="lede">A lightweight forecasting model combines weather data, pass opening dates and trekking permit counts. It tells each stall owner how many meals to stock and when to schedule a restock. Adjust the inputs to see the forecast change.</p>
+    </div>
+    <div class="forecast">
+      <div class="controls reveal">
+        <div class="control"><label for="snowR">Chance of snowfall this week <b id="snowV">20%</b></label><input type="range" class="range" id="snowR" min="0" max="100" value="20" /></div>
+        <div class="control"><label for="permitR">Trekking permits issued <b id="permitV">380</b></label><input type="range" class="range" id="permitR" min="50" max="900" step="10" value="380" /></div>
+        <div class="control"><label for="tempR">Overnight temperature at camp <b id="tempV">-2°C</b></label><input type="range" class="range" id="tempR" min="-15" max="12" value="-2" /></div>
+        <div class="control"><label>Hampta Pass status</label>
+          <div class="toggle-row" id="passToggle"><button class="on" data-open="1">Open</button><button data-open="0">Closed</button></div>
+        </div>
+        <div class="control"><label>Festival / long weekend</label>
+          <div class="toggle-row" id="festToggle"><button data-fest="1">Yes</button><button class="on" data-fest="0">No</button></div>
+        </div>
+      </div>
+      <div class="chart-card reveal">
+        <div class="chart-top">
+          <div><span class="mono" style="color:rgba(251,248,242,.6)">Meals to stock · Balu ka Ghera · next 7 days</span><div class="big" id="fcTotal">0</div></div>
+          <div style="text-align:right"><span class="mono" style="color:rgba(251,248,242,.6)">Restock trips needed</span><div class="big" style="font-size:2rem" id="fcTrips">0</div></div>
+        </div>
+        <div class="chart" id="fcChart"></div>
+        <div class="advice" id="fcAdvice"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Working prototype -->
+<section id="prototype">
+  <div class="wrap poc-grid">
+    <div class="reveal">
+      <span class="eyebrow">07 &middot; Working proof of concept</span>
+      <h2>Phase 1 runs on WhatsApp, a pulley and real food.</h2>
+      <p class="lede">You don't need custom drones to prove the model works. Our first version uses technology that's already available and cheap: a WhatsApp bot for orders and check-ins, gravity pulleys like the ones Himachal apple farmers use, and ready-made dehydrated meals.</p>
+      <ul class="poc-points">
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg><span><b>Trekkers order and pre-book meals</b> on WhatsApp before they lose signal.</span></li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg><span><b>Every check-in is logged,</b> so the base camp knows who is on the trail and where.</span></li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg><span><b>Wrapper refunds are paid by UPI</b> as soon as the stall scans the pouch.</span></li>
+      </ul>
+      <p style="margin-top:1.6rem;color:var(--ink-soft)">Try the bot on the phone. Tap a reply to talk to it.</p>
+    </div>
+    <div class="phone reveal" aria-label="WhatsApp bot prototype">
+      <div class="phone-screen">
+        <div class="chat-head"><div class="av">P</div><div><b>Pahadi Baithak Bot</b><small>Usually replies instantly</small></div></div>
+        <div class="chat-body" id="chatBody"></div>
+        <div class="chat-quick" id="chatQuick"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Franchise -->
+<section class="logi" id="franchise">
+  <div class="wrap">
+    <div class="reveal" style="max-width:780px">
+      <span class="eyebrow">08 &middot; Zero-capital micro-franchise</span>
+      <h2>Villagers open a stall without paying anything up front.</h2>
+      <p class="lede">We give the Stall-in-a-Box to local partners for free. In the first season we take a larger share of sales to recover the hardware cost. After that, the split moves toward the partner.</p>
+    </div>
+    <div class="split-vis reveal">
+      <div class="season-tabs" id="seasonTabs">
+        <button class="route-tab active" data-season="0">Season 1 · hardware recovery</button>
+        <button class="route-tab" data-season="1">Season 2 onwards · standard split</button>
+      </div>
+      <div class="split-bar"><div class="us" id="splitUs" style="flex-basis:55%">Pahadi Baithak 55%</div><div class="them" id="splitThem" style="flex-basis:45%">Village partner 45%</div></div>
+      <p class="split-note" id="splitNote">Proposed split. In season 1, a stall selling about 420 meals a week earns its partner roughly ₹28,200 a month. That's from day one, with nothing invested.</p>
+    </div>
+    <div class="fr-steps reveal">
+      <div><span class="mono">Step 01</span><h3>Recruit</h3><p>We sign up families and youth groups from villages near the trail, such as Prini, Sethan and Jagatsukh.</p></div>
+      <div><span class="mono">Step 02</span><h3>Train</h3><p>Partners get a week of training in hygiene, UPI payments, first aid and the SOS beacon.</p></div>
+      <div><span class="mono">Step 03</span><h3>Supply</h3><p>Standardised pouches arrive by porter or ropeway. The forecast model sets how much each stall gets.</p></div>
+      <div><span class="mono">Step 04</span><h3>Earn</h3><p>Partners run the stall under our brand on a profit-sharing basis, with income paid out weekly.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Impact -->
+<section id="impact">
+  <div class="wrap">
+    <div class="reveal" style="max-width:760px">
+      <span class="eyebrow">09 &middot; Why this idea</span>
+      <h2>Built to the INNOVEX brief: original, feasible and with real impact.</h2>
+    </div>
+    <div class="impact-row reveal">
+      <div><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z"/></svg><h3>Ethical</h3><p>The whole supply chain is free of animal cruelty. No mule or horse carries a single gram.</p></div>
+      <div><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 20A7 7 0 0 1 4 13c0-5 7-10 16-10 0 9-5 16-9 17Z"/><path d="M4 20c4-4 7-6 11-8"/></svg><h3>Eco-friendly</h3><p>No food waste, fully biodegradable packaging, edible cutlery and solar-powered stalls.</p></div>
+      <div><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg><h3>Social</h3><p>Direct jobs for porters and a business of their own for villagers, with no capital needed.</p></div>
+      <div><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/><path d="M9 12l2 2 4-4"/></svg><h3>Safety</h3><p>The food network also works as the first offline check-in and SOS grid on the trail.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Roadmap -->
+<section class="dark" id="roadmap">
+  <div class="wrap">
+    <div class="reveal" style="max-width:780px">
+      <span class="eyebrow">10 &middot; Roadmap</span>
+      <h2>Start simple now. Get smarter as we grow.</h2>
+      <p class="lede">We're first-year students, and the plan grows with what we learn in our B.Tech CSE (AI) programme.</p>
+    </div>
+    <div class="roadmap reveal">
+      <div class="phase now"><span class="mono">Phase 1 · Right now</span><h3>Prove it works</h3><ul><li>WhatsApp bot for orders and check-ins</li><li>Basic gravity pulleys and local porters</li><li>Ready-made dehydrated meals</li><li>₹50 deposit and paper passports</li><li>1 pilot stall on the Hampta Pass route</li></ul></div>
+      <div class="phase"><span class="mono">Phase 2 · Years 2–3</span><h3>Franchise the trail</h3><ul><li>6 Stall-in-a-Box kiosks run by village partners</li><li>Our own branded freeze-dried menu</li><li>Self-heating pouches and edible millet bowls</li><li>Offline intranet and satellite SOS beacons</li></ul></div>
+      <div class="phase"><span class="mono">Phase 3 · Years 3–4</span><h3>Intelligent supply</h3><ul><li>AI demand forecasting from weather, permit and pass data</li><li>Custom heavy-payload cargo drones</li><li>Solar ropeways at the steepest sections</li><li>Expansion to other trails: Kedarkantha, Valley of Flowers, Sandakphu</li></ul></div>
+    </div>
+    <figure class="drone-band reveal">
+      <img src="/.netlify/images?url=/img/drone.png&w=1600&fm=webp" alt="A hexacopter cargo drone carrying a supply crate over a Himalayan valley toward a solar tent stall" loading="lazy" />
+      <figcaption>Phase 3: cargo drones fly supplies from base camp to the high stalls in minutes.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- Team + join -->
+<section id="join">
+  <div class="wrap team-grid">
+    <div class="reveal">
+      <span class="eyebrow">The team</span>
+      <div class="team-badge">Baithak<br/>Ho Jaye<small>GNIOT · B.Tech CSE (AI) · INNOVEX 2026</small></div>
+      <p class="lede">The name is our motto. Good ideas happen when people sit down together, and now that includes 4,000 metres up on a cold trail with a hot meal.</p>
+      <div class="roles">
+        <div><b>Product &amp; pitch</b><span>Brand, menu, trekker experience</span></div>
+        <div><b>Logistics</b><span>Porters, ropeways, drone routes</span></div>
+        <div><b>Tech &amp; AI</b><span>WhatsApp bot, demand forecasting</span></div>
+        <div><b>Community</b><span>Village partners, safety training</span></div>
+      </div>
+    </div>
+    <form class="join reveal" name="back-the-baithak" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="joinForm" novalidate>
+      <input type="hidden" name="form-name" value="back-the-baithak" />
+      <input type="hidden" name="subject" value="New Back the Baithak sign-up" />
+      <p class="hidden"><label>Leave this empty: <input name="bot-field" /></label></p>
+      <div>
+        <span class="eyebrow">Back the Baithak</span>
+        <h3 style="font-size:2rem;margin-top:.5rem">Mentor, partner or trek with us.</h3>
+        <p style="color:var(--ink-soft);font-size:.95rem;margin-top:.3rem">Judges, mentors, villagers and trekkers are all welcome. Tell us how you'd like to help.</p>
+      </div>
+      <fieldset class="field" style="border:0">
+        <legend style="font-size:.85rem;font-weight:600;margin-bottom:.35rem">I am a…</legend>
+        <div class="role-pick">
+          <label><input type="radio" name="role" value="Mentor / Judge" checked /><span>Mentor</span></label>
+          <label><input type="radio" name="role" value="Village partner" /><span>Partner</span></label>
+          <label><input type="radio" name="role" value="Trekker" /><span>Trekker</span></label>
+          <label><input type="radio" name="role" value="Investor" /><span>Investor</span></label>
+        </div>
+      </fieldset>
+      <div class="two">
+        <div class="field"><label for="fName">Full name</label><input id="fName" name="name" autocomplete="name" required /><p class="err">Please tell us your name.</p></div>
+        <div class="field"><label for="fEmail">Email</label><input id="fEmail" name="email" type="email" autocomplete="email" required /><p class="err">Enter a valid email address.</p></div>
+      </div>
+      <div class="field"><label for="fOrg">College, organisation or village</label><input id="fOrg" name="organisation" /></div>
+      <div class="field"><label for="fMsg">How would you like to help?</label><textarea id="fMsg" name="message" rows="3"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="justify-content:center">Send to Team Baithak Ho Jaye</button>
+      <p class="form-status" id="formStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- Customer reviews -->
+<section id="review">
+  <div class="wrap team-grid">
+    <div class="reveal">
+      <span class="eyebrow">Trekker reviews</span>
+      <h2>Ate with us? Tell us how it went.</h2>
+      <p class="lede">Rate your meal, the stall and the deposit return. Every review goes straight to Team Baithak Ho Jaye, and we use it to fix the menu and the stalls before the next season.</p>
+    </div>
+    <form class="join reveal" name="customer-review" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="reviewForm" novalidate>
+      <input type="hidden" name="form-name" value="customer-review" />
+      <input type="hidden" name="subject" value="New Pahadi Baithak customer review" />
+      <p class="hidden"><label>Leave this empty: <input name="bot-field" /></label></p>
+      <fieldset class="field" id="rRatingField" style="border:0">
+        <legend style="font-size:.85rem;font-weight:600;margin-bottom:.35rem">Overall rating</legend>
+        <div class="stars" id="rStars">
+          <input type="radio" id="r5" name="rating" value="5" /><label for="r5" title="5 stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><span class="hidden">5 stars</span></label>
+          <input type="radio" id="r4" name="rating" value="4" /><label for="r4" title="4 stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><span class="hidden">4 stars</span></label>
+          <input type="radio" id="r3" name="rating" value="3" /><label for="r3" title="3 stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><span class="hidden">3 stars</span></label>
+          <input type="radio" id="r2" name="rating" value="2" /><label for="r2" title="2 stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><span class="hidden">2 stars</span></label>
+          <input type="radio" id="r1" name="rating" value="1" /><label for="r1" title="1 star"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg><span class="hidden">1 star</span></label>
+        </div>
+        <p class="err">Please pick a rating.</p>
+      </fieldset>
+      <div class="two">
+        <div class="field"><label for="rName">Your name</label><input id="rName" name="name" autocomplete="name" required /><p class="err">Please tell us your name.</p></div>
+        <div class="field"><label for="rEmail">Email (optional)</label><input id="rEmail" name="email" type="email" autocomplete="email" /><p class="err">Enter a valid email address.</p></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="rMeal">What did you eat?</label>
+          <select id="rMeal" name="meal">
+            <option value="">Choose a meal</option>
+            <option>Other / just visiting</option>
+          </select>
+        </div>
+        <div class="field"><label for="rStall">Which stall?</label><input id="rStall" name="stall" placeholder="e.g. Jobra, Chatru" /></div>
+      </div>
+      <div class="field"><label for="rMsg">Your review</label><textarea id="rMsg" name="review" rows="4" required></textarea><p class="err">Please write a few words about your visit.</p></div>
+      <button type="submit" class="btn btn-dark" style="justify-content:center">Submit review</button>
+      <p class="form-status" id="reviewStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="big">Pahadi Baithak.<br/><em>Hot food. No trace.</em></div>
+      <p style="margin-top:1rem">An idea by Team Baithak Ho Jaye for GNIOT INNOVEX 2026, organised by the GNIOT Business Incubation Centre.</p>
+    </div>
+    <p class="mono">Think &bull; Innovate &bull; Impact</p>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>
